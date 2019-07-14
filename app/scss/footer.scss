@@ -1,0 +1,288 @@
+$color1: #4CB1CA;
+$color2: #39A0B9;
+$color3: #0B4B5A;
+$color4: #ffffff;
+$color5: #71BCCF;
+$color6: #95DEF0;
+$sprite: url('../img/png/sprite.png');
+$face: url('../img/png/facebook-sprite.png');
+%H3style{
+  text-transform:uppercase;
+  font-family:inherit;
+  font-size:20px;
+  font-weight:lighter;
+  margin-bottom:10px;
+  margin-top:0;
+}
+footer{
+    width:100%;
+    margin-top:30px;
+    .bg-1{
+        background-color: $color1;
+        height:106px;
+        .top-footer{
+            min-height:106px;
+            display:grid;
+            grid-template-columns: repeat(2, max(497px));
+            .free-shipping{
+                font-size:21px;
+                text-transform:uppercase;
+                color: $color4;
+                font-family:inherit;
+                font-weight:lighter;
+                justify-self: left;
+                .shipping:before{
+                    content: '';
+                    display: inline-block;
+                    width: 65px;
+                    height: 65px;
+                    background-image: $sprite;
+                    position: relative;
+                    top:21px;
+                    margin-right:21px;
+                    background-position: -164px -54px;
+                }
+        }
+            .call-us{
+                font-size:21px;
+                text-transform:uppercase;
+                color: $color4;
+                font-family:inherit;
+                font-weight:lighter;
+                padding-left:28px;
+                .call:before{
+                    content: '';
+                    display: inline-block;
+                    width: 65px;
+                    height: 65px;
+                    background-image: $sprite;
+                    position: relative;
+                    top:21px;
+                    margin-right:21px;
+                    background-position: -16px -129px;
+                }
+        }
+        }
+    }
+    .bg-2{
+        background-color: $color2;
+        height:335px;
+        .main-footer{
+            display:grid;
+            min-height:335px;
+            grid-template-columns: repeat(4, max(263px));
+            .facebook{
+                color: $color4;
+                margin-top:48px;
+                justify-self: left;
+                h3{
+                    @extend %H3style;
+                }
+                .members{
+                    font-weight:lighter; 
+                }
+                .like{
+                    width:47px;
+                    height:23px;
+                    background-image:$face;
+                    background-position:-276px -9px;
+                }
+                hr{
+                    opacity:0.3;
+                    width: 234px;
+                    margin-left:0;
+                    margin-top:0;
+                }
+                .friends{
+                    display:flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-content: space-between;
+                    width:231px;
+                    height:107px;
+                    border:0;
+                    .photo-1{
+                        width:50px;
+                        height:49px;
+                        background-image: $face;
+                        background-position:-10px -9px;}
+                    .photo-2{
+                        width:50px;
+                        height:49px;
+                        background-image: $face;
+                        background-position:-74px -9px;}
+                    .photo-3{
+                        width:50px;
+                        height:49px;
+                        background-image: $face;
+                        background-position:-137px -9px;}
+                    .photo-4{
+                        width:50px;
+                        height:49px;
+                        background-image: $face;
+                        background-position:-201px -9px;}
+                    .photo-5{
+                        width:50px;
+                        height:49px;
+                        background-image: $face;
+                        background-position:-10px -67px;}
+                    .photo-6{
+                        width:50px;
+                        height:49px;
+                        background-image: $face;
+                        background-position:-74px -67px;}
+                    .photo-7{
+                        width:50px;
+                        height:49px;
+                        background-image: $face;
+                        background-position:-137px -67px;}
+                    .photo-8{
+                        width:50px;
+                        height:49px;
+                        background-image: $face;
+                        background-position:-201px -67px;}
+                }
+                span{
+                    font-size:13px;
+                    hr{
+                        opacity:0.3;
+                        width: 234px;
+                        margin-left:0;
+                        margin-top:8px;
+                        margin-bottom:0;
+                    }
+                }
+            }
+        }
+        .twitter{
+            color: $color4;
+            margin-top:48px;
+            justify-self: left;
+            padding-left:25px;
+            h3{ @extend %H3style;}
+            .twit{
+                width:43px;
+                height:43px;
+                float:left;
+                background-image:$sprite;
+                background-position:-252px -97px;
+                margin-right:13px;
+                margin-top:15px;
+            }
+            p{
+                font-size:13px;
+                column-count:1;
+                margin-top:25px;
+                .blue-text{
+                    color: $color6;
+                  }
+            }
+        }
+        .info{
+            color: $color4;
+            margin-top:48px;
+            justify-self: center;
+            padding-left:25px;
+            h3{ @extend %H3style;}
+            ul{
+                li{
+                    font-size:13px;
+                    line-height:25px;
+                }
+                }
+                li:before{
+                    content: '';
+                    display: inline-block;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 2px;
+                    border-bottom: 1.5px solid $color4;
+                    border-right: 1.5px solid $color4;
+                    transform: rotate(315deg);
+                    position:relative;
+                    top:-1.5px;
+                    margin-right:12px;
+                    }
+            ul:nth-child(2){
+                margin-top:20px;
+                }
+        }
+        .contact-us{
+            color: $color4;
+            margin-top:48px;
+            justify-self: left;
+            padding-left:25px;
+            h3{ @extend %H3style;}
+            ul{
+                li{
+                    font-size:13px;
+                    line-height:25px;
+                    text-indent:6px;
+                }
+            }
+            ul:nth-child(2){
+                margin-top:20px;
+                }
+            hr{
+                margin-top:8px;
+                margin-bottom:20px;
+                max-width:180px;
+                opacity:0.3;
+                margin-left:0;
+                margin-top:0;
+            }
+            button{
+                width:36px;
+                height:36px;
+                display:inline-block;
+                margin-right:6px;
+                background-image:$sprite;
+            }
+            .google{background-position: -87px -158px;}
+            .lnkd{background-position: -128px -158px;}
+            .wf{background-position: -170px -158px;}
+            .fc{background-position: -212px -158px;}
+        }
+    }
+    .bg-3{
+        background-color: $color3;
+        height:61px;
+        .bottom-footer{
+            padding-top: 22px;
+            .copy{
+                color:$color5;
+                font-size:13px;
+            }
+            .copy:before{
+                content: '\00A9';
+                margin-right:4px;
+              }
+            .footer-right-list{
+                display: inline-block;
+                position:absolute;
+                right:15px;
+                top:25px;
+                ul{
+                    li{
+                        padding-left: 10px;
+                        list-style:none;
+                        display: inline-block;
+                        a{
+                            font-size: 13px;
+                            vertical-align: top;
+                            color:$color5;
+                        }
+                    }
+                    li:nth-child(-n+3):after{
+                        content:'';
+                        display: inline-block;
+                        height:12px;
+                        width:15px;
+                        border-right:1px solid #ffffff;
+                        border-color: $color5;
+                    }
+                }
+            }
+        }
+    }
+}

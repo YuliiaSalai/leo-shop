@@ -1,0 +1,235 @@
+footer .bg-2 .main-footer .facebook h3, footer .bg-2 .twitter h3, footer .bg-2 .info h3, footer .bg-2 .contact-us h3 {
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  margin-top: 0; }
+
+footer {
+  width: 100%;
+  margin-top: 30px; }
+  footer .bg-1 {
+    background-color: #4CB1CA;
+    height: 106px; }
+    footer .bg-1 .top-footer {
+      min-height: 106px;
+      display: grid;
+      grid-template-columns: repeat(2, 497px); }
+      footer .bg-1 .top-footer .free-shipping {
+        font-size: 21px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: inherit;
+        font-weight: lighter;
+        justify-self: left; }
+        footer .bg-1 .top-footer .free-shipping .shipping:before {
+          content: '';
+          display: inline-block;
+          width: 65px;
+          height: 65px;
+          background-image: url("../img/png/sprite.png");
+          position: relative;
+          top: 21px;
+          margin-right: 21px;
+          background-position: -164px -54px; }
+      footer .bg-1 .top-footer .call-us {
+        font-size: 21px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: inherit;
+        font-weight: lighter;
+        padding-left: 28px; }
+        footer .bg-1 .top-footer .call-us .call:before {
+          content: '';
+          display: inline-block;
+          width: 65px;
+          height: 65px;
+          background-image: url("../img/png/sprite.png");
+          position: relative;
+          top: 21px;
+          margin-right: 21px;
+          background-position: -16px -129px; }
+  footer .bg-2 {
+    background-color: #39A0B9;
+    height: 335px; }
+    footer .bg-2 .main-footer {
+      display: grid;
+      min-height: 335px;
+      grid-template-columns: repeat(4, 263px); }
+      footer .bg-2 .main-footer .facebook {
+        color: #ffffff;
+        margin-top: 48px;
+        justify-self: left; }
+        footer .bg-2 .main-footer .facebook .members {
+          font-weight: lighter; }
+        footer .bg-2 .main-footer .facebook .like {
+          width: 47px;
+          height: 23px;
+          background-image: url("../img/png/facebook-sprite.png");
+          background-position: -276px -9px; }
+        footer .bg-2 .main-footer .facebook hr {
+          opacity: 0.3;
+          width: 234px;
+          margin-left: 0;
+          margin-top: 0; }
+        footer .bg-2 .main-footer .facebook .friends {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-content: space-between;
+          width: 231px;
+          height: 107px;
+          border: 0; }
+          footer .bg-2 .main-footer .facebook .friends .photo-1 {
+            width: 50px;
+            height: 49px;
+            background-image: url("../img/png/facebook-sprite.png");
+            background-position: -10px -9px; }
+          footer .bg-2 .main-footer .facebook .friends .photo-2 {
+            width: 50px;
+            height: 49px;
+            background-image: url("../img/png/facebook-sprite.png");
+            background-position: -74px -9px; }
+          footer .bg-2 .main-footer .facebook .friends .photo-3 {
+            width: 50px;
+            height: 49px;
+            background-image: url("../img/png/facebook-sprite.png");
+            background-position: -137px -9px; }
+          footer .bg-2 .main-footer .facebook .friends .photo-4 {
+            width: 50px;
+            height: 49px;
+            background-image: url("../img/png/facebook-sprite.png");
+            background-position: -201px -9px; }
+          footer .bg-2 .main-footer .facebook .friends .photo-5 {
+            width: 50px;
+            height: 49px;
+            background-image: url("../img/png/facebook-sprite.png");
+            background-position: -10px -67px; }
+          footer .bg-2 .main-footer .facebook .friends .photo-6 {
+            width: 50px;
+            height: 49px;
+            background-image: url("../img/png/facebook-sprite.png");
+            background-position: -74px -67px; }
+          footer .bg-2 .main-footer .facebook .friends .photo-7 {
+            width: 50px;
+            height: 49px;
+            background-image: url("../img/png/facebook-sprite.png");
+            background-position: -137px -67px; }
+          footer .bg-2 .main-footer .facebook .friends .photo-8 {
+            width: 50px;
+            height: 49px;
+            background-image: url("../img/png/facebook-sprite.png");
+            background-position: -201px -67px; }
+        footer .bg-2 .main-footer .facebook span {
+          font-size: 13px; }
+          footer .bg-2 .main-footer .facebook span hr {
+            opacity: 0.3;
+            width: 234px;
+            margin-left: 0;
+            margin-top: 8px;
+            margin-bottom: 0; }
+    footer .bg-2 .twitter {
+      color: #ffffff;
+      margin-top: 48px;
+      justify-self: left;
+      padding-left: 25px; }
+      footer .bg-2 .twitter .twit {
+        width: 43px;
+        height: 43px;
+        float: left;
+        background-image: url("../img/png/sprite.png");
+        background-position: -252px -97px;
+        margin-right: 13px;
+        margin-top: 15px; }
+      footer .bg-2 .twitter p {
+        font-size: 13px;
+        column-count: 1;
+        margin-top: 25px; }
+        footer .bg-2 .twitter p .blue-text {
+          color: #95DEF0; }
+    footer .bg-2 .info {
+      color: #ffffff;
+      margin-top: 48px;
+      justify-self: center;
+      padding-left: 25px; }
+      footer .bg-2 .info ul li {
+        font-size: 13px;
+        line-height: 25px; }
+      footer .bg-2 .info li:before {
+        content: '';
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        border-radius: 2px;
+        border-bottom: 1.5px solid #ffffff;
+        border-right: 1.5px solid #ffffff;
+        transform: rotate(315deg);
+        position: relative;
+        top: -1.5px;
+        margin-right: 12px; }
+      footer .bg-2 .info ul:nth-child(2) {
+        margin-top: 20px; }
+    footer .bg-2 .contact-us {
+      color: #ffffff;
+      margin-top: 48px;
+      justify-self: left;
+      padding-left: 25px; }
+      footer .bg-2 .contact-us ul li {
+        font-size: 13px;
+        line-height: 25px;
+        text-indent: 6px; }
+      footer .bg-2 .contact-us ul:nth-child(2) {
+        margin-top: 20px; }
+      footer .bg-2 .contact-us hr {
+        margin-top: 8px;
+        margin-bottom: 20px;
+        max-width: 180px;
+        opacity: 0.3;
+        margin-left: 0;
+        margin-top: 0; }
+      footer .bg-2 .contact-us button {
+        width: 36px;
+        height: 36px;
+        display: inline-block;
+        margin-right: 6px;
+        background-image: url("../img/png/sprite.png"); }
+      footer .bg-2 .contact-us .google {
+        background-position: -87px -158px; }
+      footer .bg-2 .contact-us .lnkd {
+        background-position: -128px -158px; }
+      footer .bg-2 .contact-us .wf {
+        background-position: -170px -158px; }
+      footer .bg-2 .contact-us .fc {
+        background-position: -212px -158px; }
+  footer .bg-3 {
+    background-color: #0B4B5A;
+    height: 61px; }
+    footer .bg-3 .bottom-footer {
+      padding-top: 22px; }
+      footer .bg-3 .bottom-footer .copy {
+        color: #71BCCF;
+        font-size: 13px; }
+      footer .bg-3 .bottom-footer .copy:before {
+        content: '\00A9';
+        margin-right: 4px; }
+      footer .bg-3 .bottom-footer .footer-right-list {
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 25px; }
+        footer .bg-3 .bottom-footer .footer-right-list ul li {
+          padding-left: 10px;
+          list-style: none;
+          display: inline-block; }
+          footer .bg-3 .bottom-footer .footer-right-list ul li a {
+            font-size: 13px;
+            vertical-align: top;
+            color: #71BCCF; }
+        footer .bg-3 .bottom-footer .footer-right-list ul li:nth-child(-n+3):after {
+          content: '';
+          display: inline-block;
+          height: 12px;
+          width: 15px;
+          border-right: 1px solid #ffffff;
+          border-color: #71BCCF; }

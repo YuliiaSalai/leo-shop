@@ -1,0 +1,155 @@
+.bg {
+  background-color: #4CB1CA; }
+  .bg .top-header {
+    min-height: 43px;
+    padding-top: 12px; }
+    .bg .top-header .lang-cur {
+      color: #BEF2FF;
+      font-size: 13px;
+      float: left; }
+      .bg .top-header .lang-cur .lang-cut-it {
+        display: inline-block;
+        vertical-align: top; }
+        .bg .top-header .lang-cur .lang-cut-it button {
+          color: #ffffff; }
+        .bg .top-header .lang-cur .lang-cut-it button::after {
+          content: '';
+          display: inline-block;
+          width: 7px;
+          height: 7px;
+          border-radius: 2px;
+          border-bottom: 1.5px solid #ffffff;
+          border-right: 1.5px solid #ffffff;
+          transform: rotate(45deg);
+          transform-origin: center;
+          position: relative;
+          top: -2px;
+          margin-left: 4px; }
+
+.right-list {
+  display: inline-block;
+  position: absolute;
+  right: 15px; }
+  .right-list ul li {
+    padding-left: 10px;
+    list-style: none;
+    display: inline-block; }
+    .right-list ul li li:nth-child(-n+4):after {
+      content: '';
+      display: inline-block;
+      height: 12px;
+      width: 15px;
+      border-right: 1px solid #ffffff; }
+    .right-list ul li a {
+      color: #ffffff;
+      font-size: 13px;
+      vertical-align: top; }
+
+.drop-list {
+  text-transform: uppercase;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 110px;
+  width: 100%;
+  background-color: #656565;
+  text-indent: 16px;
+  font-size: 26px;
+  line-height: 53px;
+  transition: 0.5s;
+  z-index: 999; }
+  .drop-list a {
+    color: #ffffff; }
+  .drop-list a:hover {
+    color: black; }
+
+.hidden {
+  margin-top: -100vw; }
+
+.bottom-header {
+  padding-top: 30px; }
+  .bottom-header a.logo {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #656565;
+    font-weight: 700; }
+  .bottom-header .hidden2 {
+    display: none; }
+  .bottom-header .mob-btn {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/png/menu.png"); }
+  .bottom-header nav {
+    display: inline-block;
+    padding-left: 55px;
+    vertical-align: top;
+    padding-top: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #656565; }
+    .bottom-header nav ul {
+      display: inherit; }
+      .bottom-header nav ul li {
+        display: inherit;
+        margin-right: 21px; }
+        .bottom-header nav ul li a {
+          color: inherit; }
+  .bottom-header .carts {
+    float: right;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #656565;
+    vertical-align: top;
+    padding-top: 15px; }
+  .bottom-header button.carts-logo1 {
+    float: right;
+    vertical-align: top;
+    margin-top: 9px;
+    margin-right: 14px;
+    width: 36px;
+    height: 36px;
+    background-image: url("../img/png/sprite.png");
+    background-position: -42px -9px; }
+  .bottom-header button.carts-logo2 {
+    margin-left: 14px;
+    margin-right: 4px;
+    margin-top: 9px;
+    float: right;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/png/sprite.png");
+    background-position: -84px -9px; }
+  .bottom-header button.carts-logo3 {
+    display: none;
+    float: right;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #4CB1CA;
+    opacity: 0.9;
+    margin-right: 4px;
+    margin-top: 9px;
+    background-image: url("../img/png/sprite.png");
+    background-position: -6px 1px; }
+  .bottom-header .main-search, .bottom-header .main-search-mob {
+    float: right;
+    margin-top: 9px;
+    position: relative; }
+    .bottom-header .main-search input, .bottom-header .main-search-mob input {
+      padding-left: 10px;
+      float: right;
+      width: 174px;
+      height: 29px;
+      font-family: inherit; }
+    .bottom-header .main-search button, .bottom-header .main-search-mob button {
+      width: 15px;
+      height: 15px;
+      background-image: url("../img/png/sprite.png");
+      background-position: -16px -8px;
+      position: absolute;
+      right: 9px;
+      top: 6px; }
