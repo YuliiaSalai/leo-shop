@@ -283,3 +283,74 @@ body{
                 }
             }
     }
+    @media all and (max-width: 450px) {
+        body{
+            .bottom-header{
+                .logo{
+                    font-size: 22px; 
+                    margin-left: 20px;
+                    vertical-align: bottom;
+                    line-height: 0px;
+                }
+                .main-search-mob{
+                    input{
+                        width:110px; 
+                    }
+                }
+            }
+            footer{
+                .shipping{
+                    font-size: 13px;
+                }
+                .bg-2{
+                    .main-footer{
+                        grid-template-columns: repeat(2, minmax(150px, 1fr));
+                        max-width: 450px;
+                        .twitter{
+                            display: none;
+                        }
+                        .info{
+                            justify-self: center;
+                        }
+                        .contact-us{
+                            justify-self: center;
+                        }
+                    }
+                }
+            .bg-3{
+                .bottom-footer{
+                    .footer-right-list{
+                        padding-left: 0px; 
+                        display: inline-block;
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                    }
+                }
+            }
+            }
+        }
+    }
+    @media all and (max-width: 320px) {
+        body{
+            .bottom-header{
+                .carts-logo2{
+                    display: none;
+                }
+                .main-search-mob{
+                    margin-right: 5vw;}
+            }
+            footer{
+                .shipping{
+                    font-size: 11px;
+                }
+                .bg-2{
+                    .main-footer{
+                        .info{
+                            padding-left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }

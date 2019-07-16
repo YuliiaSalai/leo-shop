@@ -56,7 +56,7 @@
   background-color: #656565;
   text-indent: 16px;
   font-size: 26px;
-  line-height: 53px;
+  line-height: 42px;
   transition: 0.5s;
   z-index: 999; }
   .drop-list a {
@@ -65,7 +65,7 @@
     color: black; }
 
 .hidden {
-  margin-top: -100vw; }
+  margin-top: -150vw; }
 
 .bottom-header {
   padding-top: 30px; }
@@ -866,13 +866,50 @@ footer {
   footer .bg-3 .bottom-footer .footer-right-list {
     padding-left: 15px; } }
 
+@media all and (max-width: 450px) {
+  body .bottom-header .logo {
+    font-size: 22px;
+    margin-left: 20px;
+    vertical-align: bottom;
+    line-height: 0px; }
+  body .bottom-header .main-search-mob input {
+    width: 110px; }
+  body footer .shipping {
+    font-size: 13px; }
+  body footer .bg-2 .main-footer {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    max-width: 450px; }
+    body footer .bg-2 .main-footer .twitter {
+      display: none; }
+    body footer .bg-2 .main-footer .info {
+      justify-self: center; }
+    body footer .bg-2 .main-footer .contact-us {
+      justify-self: center; }
+  body footer .bg-3 .bottom-footer .footer-right-list {
+    padding-left: 0px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px; } }
+
+@media all and (max-width: 320px) {
+  body .bottom-header .carts-logo2 {
+    display: none; }
+  body .bottom-header .main-search-mob {
+    margin-right: 5vw; }
+  body footer .shipping {
+    font-size: 11px; }
+  body footer .bg-2 .main-footer .info {
+    padding-left: 0px; } }
+
 * {
   box-sizing: border-box; }
 
 body, html {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  font-display: swap; }
+  font-display: swap;
+  overflow-x: hidden !important; }
   body button, html button {
     background: transparent;
     border: none;

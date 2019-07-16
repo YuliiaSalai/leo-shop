@@ -55,7 +55,7 @@
   background-color: #656565;
   text-indent: 16px;
   font-size: 26px;
-  line-height: 53px;
+  line-height: 42px;
   transition: 0.5s;
   z-index: 999; }
   .drop-list a {
@@ -64,7 +64,7 @@
     color: black; }
 
 .hidden {
-  margin-top: -100vw; }
+  margin-top: -150vw; }
 
 .bottom-header {
   padding-top: 30px; }
