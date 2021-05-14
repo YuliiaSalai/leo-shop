@@ -1,0 +1,1 @@
+Test web-page of glasses online-store
